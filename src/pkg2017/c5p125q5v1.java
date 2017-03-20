@@ -6,7 +6,7 @@ package pkg2017;
  */
 class c5p125q5v1
 {
-    public static void main()
+    public static void main(String args[])
     {
         double s30=Math.sin(30);
         double c30=Math.cos(30);

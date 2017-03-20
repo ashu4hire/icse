@@ -7,7 +7,7 @@ package pkg2017;
 import java.util.Scanner;
 class c5p125q13
 {
-    public static void main()
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.print("How many days late, was the book returned?");

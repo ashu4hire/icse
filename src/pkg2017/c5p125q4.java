@@ -6,7 +6,7 @@ package pkg2017;
  */
 class c5p125q4
 {
-    public static void main()
+    public static void main(String args[])
     {
         int cs=(2000*100)/(10*10);
         System.out.println("Number of current shares="+cs);
