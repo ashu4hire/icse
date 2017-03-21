@@ -8,7 +8,7 @@ import java.util.Scanner;
 class c5p129q24 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter velocities of 2 trains(m):");
+        System.out.println("Enter velocities of 2 trains(m/s):");
         int v1=sc.nextInt();
         int v2=sc.nextInt();
         System.out.println("Enter lengths of both trains(m):");
@@ -34,7 +34,7 @@ class c5p129q24 {
                System.out.println("Time taken to cross each-other="+time+" s");
                break;
             default:
-                System.out.println("Was there an accident?");
+                System.out.println("Are the trains de-railed?");
         }
     }
 }
